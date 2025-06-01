@@ -1,0 +1,31 @@
+body {
+    background-color: black;
+}
+
+img {
+    width: 29%;
+    border: 0.3em solid black;
+    margin: calc(10%/6);
+    transition: all 0.25s;
+}
+
+img:hover {
+    border-width: 0.3em;
+    border-style: solid;
+    border-color: white;
+    color: whitesmoke;
+    box-shadow: 1em 1em 0.5em -0.4em;
+    transform: scale(110%);
+
+}
+
+nav {
+    color: #f1f1f1;
+    text-transform: uppercase;
+    border-bottom: 2px solid #f1f1f1;
+    width: 30%;
+    margin-left: 1.666%;
+    padding: 1.2em 0em;
+    font-family: raleway;
+    font-size: 1.5em;
+}
